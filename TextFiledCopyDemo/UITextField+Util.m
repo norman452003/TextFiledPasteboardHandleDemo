@@ -19,7 +19,6 @@ static char kEnableEditMenu;
 
 - (BOOL)prohibitEditMenu{
     return objc_getAssociatedObject(self, &kEnableEditMenu);
-
 }
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender{
