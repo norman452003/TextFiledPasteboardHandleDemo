@@ -13,6 +13,7 @@
 		D228114E1D65418B0015E1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D228114C1D65418B0015E1E7 /* Main.storyboard */; };
 		D22811501D65418B0015E1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D228114F1D65418B0015E1E7 /* Assets.xcassets */; };
 		D22811531D65418B0015E1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22811511D65418B0015E1E7 /* LaunchScreen.storyboard */; };
+		D228115C1D6541AF0015E1E7 /* UITextField+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D228115B1D6541AF0015E1E7 /* UITextField+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D228114F1D65418B0015E1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22811521D65418B0015E1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22811541D65418B0015E1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D228115A1D6541AF0015E1E7 /* UITextField+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Util.h"; sourceTree = "<group>"; };
+		D228115B1D6541AF0015E1E7 /* UITextField+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D22811471D65418B0015E1E7 /* AppDelegate.m */,
 				D22811491D65418B0015E1E7 /* ViewController.h */,
 				D228114A1D65418B0015E1E7 /* ViewController.m */,
+				D228115A1D6541AF0015E1E7 /* UITextField+Util.h */,
+				D228115B1D6541AF0015E1E7 /* UITextField+Util.m */,
 				D228114C1D65418B0015E1E7 /* Main.storyboard */,
 				D228114F1D65418B0015E1E7 /* Assets.xcassets */,
 				D22811511D65418B0015E1E7 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D228114B1D65418B0015E1E7 /* ViewController.m in Sources */,
+				D228115C1D6541AF0015E1E7 /* UITextField+Util.m in Sources */,
 				D22811481D65418B0015E1E7 /* AppDelegate.m in Sources */,
 				D22811451D65418B0015E1E7 /* main.m in Sources */,
 			);
